@@ -1,0 +1,137 @@
+/* 1168 px */
+
+@media (max-width: 73em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 65em) {
+  .footer {
+    column-gap: 8rem;
+  }
+  .cta {
+    flex-direction: column;
+    align-items: end;
+    padding-right: 6.4rem;
+    gap: 1.8rem;
+  }
+}
+
+@media (max-width: 53em) {
+  .header-section {
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+  }
+  .communities-item img {
+    height: 3.2rem;
+    width: 4rem;
+  }
+  .statistics-nr {
+    font-size: 8rem;
+  }
+  .statistics-type {
+    font-size: 2rem;
+  }
+  .feature,
+  .footer {
+    padding: 3.2rem 6.4rem;
+    column-gap: 6.4rem;
+  }
+  .cta {
+    padding-right: 3.2rem;
+  }
+}
+
+@media (max-width: 44em) {
+  html {
+    font-size: 50%;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .container {
+    padding: 0 5.4rem;
+  }
+
+  .screen {
+    margin-bottom: 3.2rem;
+  }
+  .statistics {
+    row-gap: 12.8rem;
+  }
+  .feature-text-box:nth-child(1) {
+    grid-row: 2;
+  }
+  .feature-section img {
+    width: 90%;
+  }
+  .feature-img-box,
+  .feature-text-box {
+    padding-bottom: 9.6rem;
+  }
+  .feature-text-box,
+  .feature-img-box {
+    text-align: center;
+  }
+  .feature-text {
+    font-size: 1.8rem;
+  }
+  .heading-secondary {
+    font-size: 3.2rem;
+  }
+  .bg {
+    height: 25rem;
+  }
+  .section-1-top {
+    background-image: url(../images/bg-section-top-mobile-1.svg);
+  }
+  .section-1-bottom {
+    background-image: url(../images/bg-section-bottom-mobile-1.svg);
+  }
+
+  .section-2-top {
+    background-image: url(../images/bg-section-top-mobile-2.svg);
+  }
+  .section-2-bottom {
+    background-image: url(../images/bg-section-bottom-mobile-2.svg);
+  }
+  .footer-top {
+    background-image: url(../images/bg-footer-top-mobile.svg);
+  }
+  .subscribe {
+    grid-row: 1;
+  }
+  .subscribe-text,
+  .address-text {
+    max-width: none;
+    width: 100%;
+    font-size: 1.6rem;
+  }
+  .cta {
+    flex-direction: row;
+    justify-content: start;
+    padding-right: 0;
+  }
+  .footer {
+    gap: 8rem;
+  }
+}
+
+/* 496px */
+
+@media (max-width: 31em) {
+  .bg {
+    height: 19rem;
+  }
+  .cta {
+    flex-direction: column;
+    justify-content: end;
+  }
+  .input {
+    width: 100%;
+  }
+  .btn-subscribe {
+    width: 20rem;
+  }
+}
