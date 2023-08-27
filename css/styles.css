@@ -244,6 +244,11 @@ h2 {
   margin-top: 1.2rem;
 }
 
+.subscribe {
+  display: flex;
+  flex-direction: column;
+}
+
 .subscribe-text {
   max-width: 34rem;
   font-size: 1.4rem;
@@ -256,7 +261,7 @@ h2 {
   gap: 4rem;
 }
 
-.input {
+.input-box {
   padding: 1.4rem 1.2rem;
   font-size: 1.6rem;
   width: 31.2rem;
